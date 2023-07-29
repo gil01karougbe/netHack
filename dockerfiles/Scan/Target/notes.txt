@@ -1,0 +1,2 @@
+##########Start services
+bash start.sh

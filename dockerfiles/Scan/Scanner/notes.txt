@@ -1,0 +1,16 @@
+#########syn scan
+nmap -sS -p? 192.168.2.15
+
+#########syn connect
+
+########null scan 
+nmap -sN -p? 192.168.2.15
+
+#######connect scan
+nmap -sN -p? 192.168.2.15
+
+#######Fin scan
+nmap -sF -p? 192.168.2.15
+
+######Filtre wireshark
+tcp.port=?

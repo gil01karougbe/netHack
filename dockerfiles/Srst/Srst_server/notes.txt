@@ -1,0 +1,2 @@
+######Start telnet
+bash start.sh

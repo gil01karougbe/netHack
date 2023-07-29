@@ -1,0 +1,3 @@
+[console_scripts]
+netHack = netHack.__main__:main
+

@@ -1,0 +1,11 @@
+README.txt
+setup.py
+netHack/Attacks.py
+netHack/__init__.py
+netHack/__main__.py
+netHack.egg-info/PKG-INFO
+netHack.egg-info/SOURCES.txt
+netHack.egg-info/dependency_links.txt
+netHack.egg-info/entry_points.txt
+netHack.egg-info/requires.txt
+netHack.egg-info/top_level.txt

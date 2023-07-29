@@ -1,0 +1,11 @@
+#####USE arp-scan tool on the attacker machine to find net info
+arp-scan --localnet
+
+#####HERE IS THE SYNTAX TO USE FOR arp_poison.py
+python3 arp_poison.py -M mac  -V mac ip -R mac ip 
+
+######TO VERIFY THE  ARP CACHE ON THE VICTIM
+arp -a 
+
+#####Wireshark filter
+arp

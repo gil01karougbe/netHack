@@ -1,0 +1,3 @@
+#####HERE IS THE SYNTAX TO USE FOR syn_flood
+Lancer une attaque Slow READ sur 192.168.2.10:80 avec 150 connexions simultanées et un tampon de lecture de 8 octets
+loraxe 192.168.2.10 --read -b 8

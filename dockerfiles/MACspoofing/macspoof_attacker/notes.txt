@@ -1,0 +1,8 @@
+###Disable the network interface
+ifconfig eth0 down
+
+###The basic syntax of macchanger
+macchanger -m new_mac eth0
+
+###Enable the network interface
+ifconfig eth0 up

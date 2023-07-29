@@ -1,0 +1,6 @@
+#####HERE IS THE SYNTAX TO USE FOR syn_flood
+cd Python-SYN-Flood-Attack
+Dans cette attaque, ce script nous permet de choisir entre deux méthodes pour l'exécuter. 
+La première consiste à faire une communication (question/répondre) par " python3 py3_SYN-Flood.py " 
+tandis que la seconde consiste à saisir directement la commande suivante :
+" python3 py3_synflood_cmd.py -t 192.168.2.10 -p 8080 -c 1000 "
